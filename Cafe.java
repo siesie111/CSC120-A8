@@ -141,6 +141,7 @@ public class Cafe extends Building {
         int nCreams = 13;
         int nCups = 24;
         Cafe c = new Cafe("CC", "123 St", nCups, nCoffeeOunces, nSugarPackets, nCreams, nCups);
+        c.sellCoffee(140, 50, 32);
     }
     
 }

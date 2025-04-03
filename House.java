@@ -143,6 +143,7 @@ public class House extends Building {
   public static void main(String[] args) {
     ArrayList<String> resident = new ArrayList<String>(Arrays.asList("Apple", "Banna", "Watermelon"));
     House h = new House("Cutter House", "71 Elm Street, MA 01063", 3, resident, true, true);
+    h.goToFloor(2);
   }
 
 }

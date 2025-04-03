@@ -75,6 +75,7 @@ public class CampusMap {
         // House Class
         ArrayList<String> resident = new ArrayList<String>(Arrays.asList("Apple", "Banna", "Watermelon"));
         House h  = new House("Cutter House", resident);
+        h.moveOut("Apple");
         Hashtable<String, Integer> residentWithFloor = new Hashtable<String, Integer>();
         residentWithFloor.put("Javanica", 3);
         House house = new House("Capen House", residentWithFloor);
