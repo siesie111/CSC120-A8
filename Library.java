@@ -1,8 +1,6 @@
 /* This is a stub for the Library class */
 
-import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Map;
 
 /*
  * Library class that extends Building class
